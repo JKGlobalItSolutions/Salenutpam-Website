@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaleNutpam</title>
+    <link rel="icon" href="./Images/logos/SaleNutpam fevicon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="Styles/styles.css">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-link {
+            color: #333;
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+        }
+
+        .nav-link:hover {
+            color: red;
+        }
+
+
+        .btn-demo {
+            background-color: #FF0000;
+            color: white;
+            border-radius: 25px;
+            padding: 8px 24px;
+            margin-right: 10px;
+        }
+
+        .btn-signup {
+            background-color: #FF0000;
+            color: white;
+            border-radius: 25px;
+            padding: 8px 24px;
+        }
+
+        .btn-demo:hover,
+        .btn-signup:hover {
+            background-color: #E60000;
+            color: white;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+
+            .nav-button-group {
+                margin-top: 1rem;
+                display: flex;
+                gap: 10px;
+            }
+        }
+    </style>
+    <style>
+        .text-gradient {
+            background: #FF0000;
+background: linear-gradient(to top, #FF0000 30%, #FF9141 53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+        }
+
+        .background-gradient {
+            background: rgb(243,150,18);
+            background: linear-gradient(90deg, rgba(243,150,18,1) 0%, rgba(255,0,0,1) 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img style="height: 70px;" src="./Images/Logo/SALENUTPAM Logo.png" alt="SaleNutpam Logo" class="img-fluid">
+            </a>
+            <style>
+                @media (max-width: 768px) {
+                    .navbar-brand img {
+                        height: 50px !important;
+                    }
+                }
+                @media (min-width: 992px) {
+                    .nav-item.dropdown:hover .dropdown-menu {
+                        display: block;
+                        margin-top: 0;
+                    }
+                }
+                .nav-item-hover:hover {
+                    color: #FF0000 !important;
+                }
+            </style>
+    
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navigation Items -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="index.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="index.html">Features</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="index.html">FAQ</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px;" class="nav-link nav-item-hover" href="index.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-item-hover" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="SaleNutpamWeb.html">SaleNutpam Web Software</a></li>
+                            <li><a class="dropdown-item" href="SaleNutpamMobile.html">SaleNutpam Mobile App</a></li>
+                            <li><a class="dropdown-item" href="SaleNutpamBooster.html">SaleNutpam Booster</a></li>
+                        </ul>
+                    </li> -->
+                  
+                </ul>
+    
+                <!-- Action Buttons -->
+                <div class="nav-button-group">
+                    <a style="background: rgb(243,150,18);
+background: linear-gradient(90deg, rgba(243,150,18,1) 0%, rgba(255,0,0,1) 100%);" href="demo.html" class="btn text-light">Demo</a>
+                    <a style="background: rgb(243,150,18);
+background: linear-gradient(90deg, rgba(243,150,18,1) 0%, rgba(255,0,0,1) 100%);" target="_blank" href="https://hrms-web-app.web.app/" class="btn text-light">Login</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+      <img class="img-fluid" src="./Images/Feature/Banner 1 (2).png" alt="">  
+    </div>
+<div class="container-fluid">
+    <div class="row p-lg-5 p-2 gap-5 justify-content-center ">
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3 " src="./Images/Feature/icon 1 (2).png" alt="">
+                <h3 class="text-light">Lead Management</h3>
+                <p class="text-light  " >SaleNutpam’s lead management tools help you capture, nurture, and convert leads efficiently. Track interactions, prioritize opportunities, and automate follow-ups to focus on high-potential leads and boost conversions. Simplify your process and drive growth with effective lead management.</p>
+        </div>
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3" src="./Images/Feature/icon 2 (2).png" alt="">
+                <h3 class="text-light">Follow-Up Management</h3>
+                <p class="text-light" >SaleNutpam’s follow-up management feature ensures every customer interaction is timely and effective. Schedule reminders, automate follow-ups, and track engagement to build strong customer relationships. Stay connected, enhance responsiveness, and never miss an opportunity to grow your business.</p>
+        </div>
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3" src="./Images/Feature/icon 3 (2).png" alt="">
+                <h3 class="text-light">Schedule SMS / E-Mail</h3>
+                <p class="text-light" >SaleNutpam’s lead management tools help you capture, nurture, and convert leads efficiently. Track interactions, prioritize opportunities, and automate follow-ups to focus on high-potential leads and boost conversions. Simplify your process and drive growth with effective lead management.</p>
+        </div>
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3" src="./Images/Feature/icon 4 (2).png" alt="">
+                <h3 class="text-light">Inquiry Management</h3>
+                <p class="text-light" >SaleNutpam's inquiry management solutions let you handle client queries and requests more efficiently. Track questions, assign responsibilities, and provide fast responses to improve customer satisfaction. Efficient inquiry management allows you to arrange every interaction, prioritize responses, and establish trust.</p>
+        </div>
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3" src="./Images/Feature/icon 5 (2).png" alt="">
+                <h3 class="text-light">Data Management</h3>
+                <p class="text-light" >SaleNutpam's data management features make it easy to organize, access, and update customer information. Easily centralize data, keep accurate records, and gain important insights to help you make better decisions and develop greater customer interactions.</p>
+        </div>
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3" src="./Images/Feature/icon 6 (2).png" alt="">
+                <h3 class="text-light">Real-Time Insights & 
+                    Reporting</h3>
+                <p class="text-light" >SalesNutpam's real-time reporting tools provide relevant information. Monitor important metrics, track performance, and make data-driven choices immediately. Stay informed, adjust rapidly, and drive growth with current information.</p>
+        </div>
+        <div  class="col-12 col-lg-3 background-gradient text-center  rounded p-4 ">
+                <img class="img-fluid col-2 mb-3" src="./Images/Feature/icon 7 (2).png" alt="">
+                <h3 class="text-light">Task and Activity 
+                    Management</h3>
+                <p class="text-light" >SaleNutpam's task and activity management tools help you stay organized and on schedule. Set deadlines, assign tasks, and track progress to guarantee prompt follow-up and efficient workflows. Keep your team aligned and focused on what is most important.</p>
+        </div>
+     
+    </div>
+</div>
+   
+    
+  
+<!-- Testimonial end -->
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .footer-text {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .footer-text:hover {
+            color: red !important;
+            cursor: pointer;
+        }
+
+        .social-icon {
+            transition: filter 0.3s ease;
+        }
+    </style>
+
+<style>
+.hov:hover{
+    color: red !important;
+}
+</style>
+  
+
+<footer style="background-color: #343131;" class="w-100 text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Quick Access -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Quick Access</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Features</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov  text-decoration-none">FAQ</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Testimonials</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Blog</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+  
+        <!-- Company Information -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Company Information</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Our Team</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Careers</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Terms of Service</a></li>
+          </ul>
+        </div>
+  
+        <!-- Support & Resources -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Support & Resources</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Help Center</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Documentation</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">User Guides</a></li>
+          </ul>
+        </div>
+  
+        <!-- Company Logo & Contact -->
+        <div class="col-md-3 mb-4">
+          <div class="d-flex align-items-center mb-3">
+           <img class="img-fluid" src="./Images/Logo/SALENUTPAM Logo.png" alt="">
+            
+          </div>
+          <div class="mb-3">
+            <p class="mb-1">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:suppot@salenutpam.com" class="text-white hov text-decoration-none">suppot@salenutpam.com</a>
+            </p>
+            <p class="mb-1">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <a href="tel:8438438413" class="text-white hov text-decoration-none">8438438413, 8807880764</a>
+            </p>
+          </div>
+          <!-- Social Media Icons -->
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white hov"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-whatsapp fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-twitter-x fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-linkedin fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-instagram fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Don't forget to include Bootstrap CSS and Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+</body>
+
+</html>
