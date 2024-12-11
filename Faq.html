@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaleNutpam</title>
+    <link rel="icon" href="./Images/logos/SaleNutpam fevicon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="Styles/styles.css">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-link {
+            color: #333;
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+        }
+
+        .nav-link:hover {
+            color: red;
+        }
+
+
+        .btn-demo {
+            background-color: #FF0000;
+            color: white;
+            border-radius: 25px;
+            padding: 8px 24px;
+            margin-right: 10px;
+        }
+
+        .btn-signup {
+            background-color: #FF0000;
+            color: white;
+            border-radius: 25px;
+            padding: 8px 24px;
+        }
+
+        .btn-demo:hover,
+        .btn-signup:hover {
+            background-color: #E60000;
+            color: white;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+
+            .nav-button-group {
+                margin-top: 1rem;
+                display: flex;
+                gap: 10px;
+            }
+        }
+    </style>
+    <style>
+        .text-gradient {
+            background: #FF0000;
+            background: linear-gradient(to top, #FF0000 30%, #FF9141 53%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .background-gradient {
+            background: rgb(243, 150, 18);
+            background: linear-gradient(90deg, rgba(243, 150, 18, 1) 0%, rgba(255, 0, 0, 1) 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img style="height: 70px;" src="./Images/Logo/SALENUTPAM Logo.png" alt="SaleNutpam Logo"
+                    class="img-fluid">
+            </a>
+            <style>
+                @media (max-width: 768px) {
+                    .navbar-brand img {
+                        height: 50px !important;
+                    }
+                }
+
+                @media (min-width: 992px) {
+                    .nav-item.dropdown:hover .dropdown-menu {
+                        display: block;
+                        margin-top: 0;
+                    }
+                }
+
+                .nav-item-hover:hover {
+                    color: #FF0000 !important;
+                }
+            </style>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Items -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; " class="nav-link nav-item-hover" href="feature.html">Features</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px; color: red; " class="nav-link nav-item-hover" href="Faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="font-size: 18px;" class="nav-link nav-item-hover" href="Contact.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-item-hover" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="SaleNutpamWeb.html">SaleNutpam Web Software</a></li>
+                            <li><a class="dropdown-item" href="SaleNutpamMobile.html">SaleNutpam Mobile App</a></li>
+                            <li><a class="dropdown-item" href="SaleNutpamBooster.html">SaleNutpam Booster</a></li>
+                        </ul>
+                    </li> -->
+
+                </ul>
+
+                <!-- Action Buttons -->
+                <div class="nav-button-group">
+                    <a style="background: rgb(243,150,18);
+background: linear-gradient(90deg, rgba(243,150,18,1) 0%, rgba(255,0,0,1) 100%);" href="https://sale-nutpam-updated.web.app/"
+                        class="btn text-light">Demo</a>
+                    <a style="background: rgb(243,150,18);
+background: linear-gradient(90deg, rgba(243,150,18,1) 0%, rgba(255,0,0,1) 100%);" target="_blank"
+                        href="https://hrms-web-app.web.app/" class="btn text-light">Login</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <img class="img-fluid" src="./Images/FAQ/Banner 1 (9).png" alt="">
+    </div>
+
+    <div class="container my-5">
+        <div class="accordion" id="faqAccordion">
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false"
+                        aria-controls="faq1">
+                        How do I create an account on SaleNutpam CRM?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        To create an account, simply visit our Sign-Up page and follow the registration steps. Once
+                        registered, you'll receive a confirmation email to activate your account.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                        aria-controls="faq2">
+                        Where can I get started with SaleNutpam CRM?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Once you log in, check out our onboarding guide or reach out to our support team. You can also
+                        access video tutorials in the Help Center.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                        aria-controls="faq3">
+                        Can I customize SaleNutpam CRM to meet my business needs?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes! SaleNutpam CRM offers flexible customization options, including workflows, fields, and
+                        templates. Head to Settings to explore your options.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false"
+                        aria-controls="faq4">
+                        How can I add team members to my SaleNutpam CRM account?
+                    </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        To add team members, go to Account Settings > Team Management and invite them via email.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false"
+                        aria-controls="faq5">
+                        What is lead management, and how can I use it in SaleNutpam?
+                    </button>
+                </h2>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Lead management in SaleNutpam lets you capture, segment, and track leads through the sales
+                        process. Visit the Lead Management section for a step-by-step guide.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false"
+                        aria-controls="faq6">
+                        How can I schedule SMS and email communications?
+                    </button>
+                </h2>
+                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        SaleNutpam CRM allows you to schedule SMS and email messages. Navigate to Campaigns > Schedule
+                        and select your preferred timing and audience.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false"
+                        aria-controls="faq7">
+                        Does SaleNutpam provide real-time insights and reporting?
+                    </button>
+                </h2>
+                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, our CRM offers real-time insights to track customer interactions and campaign performance,
+                        ensuring you can make informed decisions.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false"
+                        aria-controls="faq8">
+                        What are the available subscription plans for SaleNutpam?
+                    </button>
+                </h2>
+                <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We offer a range of plans to suit different business needs. Visit our Pricing page to see the
+                        available options and details.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq9" aria-expanded="false"
+                        aria-controls="faq9">
+                        How can I update my billing information?
+                    </button>
+                </h2>
+                <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        To update billing information, go to Account Settings > Billing. Here, you can edit payment
+                        details and view your billing history.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false"
+                        aria-controls="faq10">
+                        I forgot my password. How can I reset it?
+                    </button>
+                </h2>
+                <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        On the login page, click on Forgot Password and follow the steps to reset it. You’ll receive an
+                        email with further instructions.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq11" aria-expanded="false"
+                        aria-controls="faq11">
+                        I’m having issues with data import. What should I do?
+                    </button>
+                </h2>
+                <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Check our Data Import Guide for detailed steps. For persistent issues, reach out to support via
+                        Live Chat or Contact Support.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq12" aria-expanded="false"
+                        aria-controls="faq12">
+                        How can I integrate SaleNutpam CRM with other applications?
+                    </button>
+                </h2>
+                <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        SaleNutpam CRM supports integrations with popular tools. Visit the Integrations page to connect
+                        with platforms like Google, Outlook, and more.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq13" aria-expanded="false"
+                        aria-controls="faq13">
+                        Does SaleNutpam offer task and activity management features?
+                    </button>
+                </h2>
+                <div id="faq13" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        SaleNutpam CRM supports integrations with popular tools. Visit the Integrations page to connect
+                        with platforms like Google, Outlook, and more.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq14" aria-expanded="false"
+                        aria-controls="faq14">
+                        How can I track the performance of my campaigns in SaleNutpam?
+                    </button>
+                </h2>
+                <div id="faq14" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Our CRM provides campaign performance reports in real-time. Access these insights in the Reports
+                        section to understand your campaign’s impact.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button style="background-color: #FF0000;" class="accordion-button  text-white collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#faq15" aria-expanded="false"
+                        aria-controls="faq15">
+                        Is there a way to prioritize leads in SaleNutpam?
+                    </button>
+                </h2>
+                <div id="faq15" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, you can prioritize leads using Lead Scoring. Go to Leads > Lead Scoring to assign scores
+                        based on engagement and other criteria.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more FAQ items following the same pattern -->
+        </div>
+    </div>
+
+    <style>
+        /* Custom styles for the accordion */
+        .accordion-button:not(.collapsed) {
+            background-color: #FF0000 !important;
+            /* Bootstrap danger red */
+            color: white !important;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(0, 0, 0, .125);
+        }
+
+        .accordion-button::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+
+        .accordion-button.collapsed::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+    </style>
+
+
+
+
+    <!-- Testimonial end -->
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .footer-text {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .footer-text:hover {
+            color: red !important;
+            cursor: pointer;
+        }
+
+        .social-icon {
+            transition: filter 0.3s ease;
+        }
+    </style>
+
+    <style>
+        .hov:hover {
+            color: red !important;
+        }
+    </style>
+
+<footer style="background-color: #343131;" class="w-100 text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Quick Access -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Quick Access</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="index.html" class="text-white hov text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="feature.html" class="text-white hov text-decoration-none">Features</a></li>
+            <li class="mb-2"><a href="Faq.html" class="text-white hov  text-decoration-none">FAQ</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Testimonials</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Blog</a></li>
+            <li class="mb-2"><a href="Contact.html" class="text-white hov text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+  
+        <!-- Company Information -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Company Information</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="about.html" class="text-white hov text-decoration-none">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Our Team</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Careers</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Terms of Service</a></li>
+          </ul>
+        </div>
+  
+        <!-- Support & Resources -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Support & Resources</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Help Center</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">Documentation</a></li>
+            <li class="mb-2"><a href="#" class="text-white hov text-decoration-none">User Guides</a></li>
+          </ul>
+        </div>
+  
+        <!-- Company Logo & Contact -->
+        <div class="col-md-3 mb-4">
+          <div class="d-flex align-items-center mb-3">
+           <img class="img-fluid" src="./Images/Logo/SALENUTPAM Logo.png" alt="">
+            
+          </div>
+          <div class="mb-3">
+            <p class="mb-1">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:suppot@salenutpam.com" class="text-white hov text-decoration-none">suppot@salenutpam.com</a>
+            </p>
+            <p class="mb-1">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <a href="tel:8438438413" class="text-white hov text-decoration-none">8438438413, 8807880764</a>
+            </p>
+          </div>
+          <!-- Social Media Icons -->
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white hov"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-whatsapp fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-twitter-x fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-linkedin fs-5"></i></a>
+            <a href="#" class="text-white hov"><i class="bi bi-instagram fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Don't forget to include Bootstrap CSS and Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+</body>
+
+</html>
